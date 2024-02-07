@@ -4,7 +4,10 @@ function SMSList({ smses }) {
       <p>To: {s.to}</p>
       <p>Content: {s.content}</p>
 
-      <a href={`sms:${s.to}&body=${s.content}`} className="btn">
+      <a
+        href={`sms:${s.to}?body=${encodeURIComponent(s.content)}`}
+        className="btn"
+      >
         Send SMS
       </a>
     </div>
