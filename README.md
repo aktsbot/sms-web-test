@@ -1,4 +1,6 @@
-# React + Vite
+# A demo webapp to inovoke SMS app from a website
+
+## Built with vite + react
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
