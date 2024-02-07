@@ -2,7 +2,7 @@ function SMSList({ smses }) {
   return smses.map((s) => (
     <div key={s.id} className="box">
       <p>To: {s.to}</p>
-      <p>Content: {s.content}</p>
+      <p className="text">Content: {s.content}</p>
 
       <a
         href={`sms:${s.to}?body=${encodeURIComponent(s.content)}`}

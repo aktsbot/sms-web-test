@@ -13,3 +13,7 @@
   color: inherit;
   background-color: #ccc;
 }
+
+.text {
+  white-space: pre-line;
+}
